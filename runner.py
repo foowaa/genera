@@ -5,9 +5,9 @@ import os
 def runner():
     parser = argparse.ArgumentParser()
     base_dir = os.getcwd()
-    parser.add_argument('--base', default=base_dir, type=str)
+    parser.add_argument('--base_dir', default=base_dir, type=str)
     parser.add_argument("--tag", default="./data/tags.txt", type=str)
-    parser.add_argument("--ptr", default="./data/patterns.txt", type=str)
+    parser.add_argument("--pattern", default="./data/patterns.txt", type=str)
     parser.add_argument("--target", default="./data/final.csv", type=str)
     args = parser.parse_args()
     ptr_file = args.base+"/"+args.ptr

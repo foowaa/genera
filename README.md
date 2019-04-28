@@ -101,3 +101,9 @@ For example:
 ```
 p_否定	不是|不用|不对|不确认|不确定|不是不是|不需要|不是了|不是的|不是毿|不用了|不用的|不用毿|不对了|不对的|不对毿|不确认了|不确认的|不确认毿|不确定了|不确定的|不确定毿|不是不是了|不是不是的|不是不是毿|不需要了|不需要的|不需要毿|算了|非也|错了|no
 ```
+
+### 5.使用
+```python
+python runner.py --base_dir [目录] --tag [tag文件名] --pattern [pattern文件名] --target [结果文件名]
+```
+如果不使用参数，则目录为`runner.py`所在目录，tag文件为`runner.py`所在目录下的`./data/tags.txt`，pattern 文件为`runner.py`所在目录下的`./data/patterns.txt`，结果保存在`runner.py`所在目录下的`./data/final.txt`
