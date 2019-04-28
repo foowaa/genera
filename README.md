@@ -1,5 +1,5 @@
 # GENERA
-*G**ENE**rate co**R**por**A*** (GENERA)
+**GENE**rate co**R**por**A** (GENERA)
 Generate corpora using patterns and rules for system cold start.
 
 ### 1.Introduction
