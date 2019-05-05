@@ -65,20 +65,30 @@ Every element  identification strats with `p_`, end with `:`, and evrey element 
 * `replacement`=[]
 * `existence`=||
 
+If in `tags.txt`:
+```
+t_语气词:
+啊
+哦
+嘛
+```
+
 Unfold`(不)(是|用)(了|的|[t_语气词]||)`:
 
 ```
 不是了
 不是的
-不是[t_语气词]
+不是啊
+不是哦
+不是嘛
 不用了
 不用的
-不用[t_语气词]
+不用啊
+不用哦
+不用嘛
 不用
 不是
 ```
-
-[t_语气词] is in `tags.txt`.
 
 ### 3.Syntax checking
 
